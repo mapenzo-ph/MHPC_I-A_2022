@@ -1,0 +1,407 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue Jun 28 15:20:28 2022
+
+# Variables
+
+# environment
+DAL_MAJOR_BINARY = 1
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SETVARS_COMPLETED = 1
+# environment
+LANG = C
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+VTUNE_PROFILER_2022_DIR = /opt/intel/oneapi/vtune_profiler/2022.0.0/Intel VTune Profiler 2022.0.0.app/Contents
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CMPLR_ROOT = /opt/intel/oneapi/compiler/2022.0.0
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/mapenzo/Desktop/mhpc_interpolation_2022/Exercises/Day1/Exercise2/Input
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"it","availableLanguages":{"*":"it"},"_languagePackId":"e42d83a2243fefd704ae12d65a4126f2.it","_translationsConfigFile":"/Users/mapenzo/Library/Application Support/Code/clp/e42d83a2243fefd704ae12d65a4126f2.it/tcf.json","_cacheRoot":"/Users/mapenzo/Library/Application Support/Code/clp/e42d83a2243fefd704ae12d65a4126f2.it","_resolvedLanguagePackCoreLocation":"/Users/mapenzo/Library/Application Support/Code/clp/e42d83a2243fefd704ae12d65a4126f2.it/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/Users/mapenzo/Library/Application Support/Code/clp/e42d83a2243fefd704ae12d65a4126f2.it/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+APM = /opt/intel/oneapi/advisor/2022.0.0/Intel Advisor 2022.0.app/Contents/perfmodels
+# environment
+TBBROOT = /opt/intel/oneapi/tbb/2021.5.0/env/..
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+IPPCP_TARGET_ARCH = intel64
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2m/39rjn1rd7cx_q47kpt8wh44m0000gn/T/vscode-ipc-8966b981-7e6e-4bd7-9b66-9d76ddfaa3a5.sock
+# environment
+VSCODE_CWD = /Users/mapenzo/Desktop/mhpc_interpolation_2022/Exercises/Day1/Exercise2/Input
+# environment
+PATH = /opt/intel/oneapi/vtune_profiler/2022.0.0/Intel VTune Profiler 2022.0.0.app/Contents/MacOS:/opt/intel/oneapi/intelpython/latest/bin:/opt/intel/oneapi/intelpython/latest/condabin:/opt/intel/oneapi/dev-utilities/2021.5.0/bin:/opt/intel/oneapi/compiler/2022.0.0/mac/bin/intel64:/opt/intel/oneapi/advisor/2022.0.0/Intel Advisor 2022.0.app/Contents/MacOS:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Library/Apple/usr/bin
+# environment
+LIBRARY_PATH = /opt/intel/oneapi/tbb/2021.5.0/env/../lib:/opt/intel/oneapi/mkl/2022.0.0/lib:/opt/intel/oneapi/ippcp/2021.5.0/lib:/opt/intel/oneapi/ipp/2021.5.0/lib:/opt/intel/oneapi/dnnl/2022.0.0/cpu_iomp/lib:/opt/intel/oneapi/dal/2021.5.0/lib
+# environment
+CPATH = /opt/intel/oneapi/tbb/2021.5.0/env/../include:/opt/intel/oneapi/mkl/2022.0.0/include:/opt/intel/oneapi/ippcp/2021.5.0/include:/opt/intel/oneapi/ipp/2021.5.0/include:/opt/intel/oneapi/dnnl/2022.0.0/cpu_iomp/lib:/opt/intel/oneapi/dev-utilities/2021.5.0/include:/opt/intel/oneapi/dal/2021.5.0/include
+# environment
+ONEAPI_ROOT = /opt/intel/oneapi
+# environment
+GIT_PS1_SHOWCOLORHINTS = 1
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+CMAKE_PREFIX_PATH = /opt/intel/oneapi/tbb/2021.5.0/env/..
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.0CEcHImPlR/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.GkW5M4rvFB/org.xquartz:0
+# environment
+CONDA_EXE = /opt/intel/oneapi/intelpython/latest/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/mapenzo/Desktop/mhpc_interpolation_2022/Exercises/Day1/Exercise2/Input
+# environment
+PKG_CONFIG_PATH = /opt/intel/oneapi/tbb/2021.5.0/env/../lib/pkgconfig:/opt/intel/oneapi/mkl/2022.0.0/lib/pkgconfig:/opt/intel/oneapi/ippcp/2021.5.0/lib/pkgconfig:/opt/intel/oneapi/dnnl/2022.0.0/cpu_iomp/../lib/pkgconfig:/opt/intel/oneapi/dal/2021.5.0/lib/pkgconfig:/opt/intel/oneapi/compiler/2022.0.0/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/intel/oneapi/compiler/2022.0.0/documentation/en/man/common:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/mapenzo
+# environment
+GIT_PS1_SHOWUNTRACKEDFILES = 1
+# default
+MAKEFILEPATH := /Applications/Xcode13.3.1.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+BASH_COMPLETION_COMPAT_DIR = /usr/local/etc/bash_completion.d
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/mapenzo/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+IPP_TARGET_ARCH = intel64
+# environment
+LOGNAME = mapenzo
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (intelpython-python3.9) 
+# makefile (from `Makefile', line 4)
+ARCHES = $(patsubst config/%.inc,%,$(wildcard config/*.inc))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = intelpython-python3.9
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = mapenzo
+# environment
+MKLROOT = /opt/intel/oneapi/mkl/2022.0.0
+# makefile
+.DEFAULT_GOAL := default
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:D5663530-CE58-4A43-9BCA-FD72C7067280
+# environment
+CLASSPATH = /opt/intel/oneapi/dal/2021.5.0/lib/onedal.jar
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Applications/Xcode13.3.1.app/Contents/Developer/usr/bin/make
+# environment
+GIT_PS1_SHOWDIRTYSTATE = 1
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/2m/39rjn1rd7cx_q47kpt8wh44m0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+DNNLROOT = /opt/intel/oneapi/dnnl/2022.0.0/cpu_iomp
+# environment
+VSCODE_IPC_HOOK = /Users/mapenzo/Library/Application Support/Code/1.68.1-main.sock
+# environment
+PYTHONPATH = /opt/intel/oneapi/advisor/2022.0.0/Intel Advisor 2022.0.app/Contents/pythonapi
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.33068982.33068988.AA068A14-DEA3-4CC0-9222-CC8291B3645E
+# environment
+LC_TERMINAL_VERSION = 3.4.15
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+DALROOT = /opt/intel/oneapi/dal/2021.5.0
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t0p0:D5663530-CE58-4A43-9BCA-FD72C7067280
+# environment
+IPPROOT = /opt/intel/oneapi/ipp/2021.5.0
+# environment
+COLORFGBG = 15;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x4
+# environment
+COMMAND_MODE = unix2003
+# environment
+ADVISOR_2022_DIR = /opt/intel/oneapi/advisor/2022.0.0/Intel Advisor 2022.0.app/Contents
+# default
+MAKEFILES := 
+# environment
+DAL_MINOR_BINARY = 1
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = iTerm
+# environment
+LaunchInstanceID = B8338F61-F780-48EB-962F-B55261870C1E
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /opt/intel/oneapi/intelpython/latest/bin/python
+# environment
+DAALROOT = /opt/intel/oneapi/dal/2021.5.0
+# environment
+SECURITYSESSIONID = 186a3
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+NLSPATH = /opt/intel/oneapi/mkl/2022.0.0/lib/locale/%l_%t/%N:/opt/intel/oneapi/compiler/2022.0.0/mac/compiler/lib/intel64_mac/locale/%l_%t/%N:/opt/intel/oneapi/compiler/2022.0.0/mac/compiler/lib/locale/%l_%t/%N
+ 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /opt/intel/oneapi/intelpython/latest
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 6196
+# environment
+_CE_CONDA = 
+# makefile (from `Makefile', line 2)
+HOST = $(shell uname -m)
+# environment
+IPPCRYPTOROOT = /opt/intel/oneapi/ippcp/2021.5.0
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=9/147=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777221, inode 33550036): 8 files, no impossibilities.
+# config (device 16777221, inode 33550039): 6 files, no impossibilities.
+
+# 14 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+spotless: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 40):
+	rm -f *~ */*~
+	
+
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  commands to execute (from `Makefile', line 27):
+	for d in $(ARCHES); \
+	do dir=Obj_$$d ; test -d $$dir || mkdir -p $$dir ; \
+	make -C $$dir -f ../config/Common.mk ARCH=$$d || break ;\
+	done
+	
+
+.PHONY: default subdirs clean spotless
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-27 10:00:54
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+64bit-fpu-gcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+	mkdir -p Obj_$@
+	make -C Obj_$@ -f ../config/Common.mk ARCH=$@
+	
+
+default: list
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+64bit-fpu-gcc-modern:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+	mkdir -p Obj_$@
+	make -C Obj_$@ -f ../config/Common.mk ARCH=$@
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 37):
+	rm -rf Obj_* perf.data*
+	
+
+list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 21):
+	@echo
+	@echo Available configurations:
+	@echo $(ARCHES)
+	@echo
+	
+
+32bit-fpu-gcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+	mkdir -p Obj_$@
+	make -C Obj_$@ -f ../config/Common.mk ARCH=$@
+	
+
+subdirs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Jun 28 15:20:28 2022
+
+ 

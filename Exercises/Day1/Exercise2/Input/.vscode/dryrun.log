@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mapenzo/Desktop/mhpc_interpolation_2022/Exercises/Day1/Exercise2/Input'
+echo
+echo Available configurations:
+echo 32bit-fpu-gcc 64bit-fpu-gcc-modern 64bit-fpu-gcc
+echo
+make: Leaving directory `/Users/mapenzo/Desktop/mhpc_interpolation_2022/Exercises/Day1/Exercise2/Input'
+ 

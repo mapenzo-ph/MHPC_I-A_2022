@@ -1,0 +1,1 @@
+{"buildTargets":[".PHONY","32bit-fpu-gcc","64bit-fpu-gcc","64bit-fpu-gcc-modern","all","clean","default","list","spotless","subdirs"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
